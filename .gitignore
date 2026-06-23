@@ -1,0 +1,60 @@
+# --- IDEs / Editeurs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Dossiers de téléchargement et fichiers temporaires ---
+uploads/
+temp_*/
+*.pdf
+*.log
+
+# --- Fichiers Spécifiques ---
+comment lancer.txt
+
+# --- Frontend (React / Vite) ---
+ClonageVocal\ nv/node_modules/
+ClonageVocal\ nv/dist/
+ClonageVocal\ nv/build/
+ClonageVocal\ nv/coverage/
+npm-debug.log
+yarn-error.log
+.env
+
+# --- Backend (Spring Boot / Java) ---
+deepfake-backend/target/
+deepfake-backend/bin/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+
+# --- AI Service (Python / FastAPI) ---
+service-ia-python/venv/
+service-ia-python/env/
+service-ia-python/__pycache__/
+service-ia-python/*.pyc
+service-ia-python/.pytest_cache/
+service-ia-python/.env
+
+# --- OS / Environnement ---
+.DS_Store
+Thumbs.db
+
+# --- Modèles d'IA lourds ---
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# --- Fichiers Audio personnels et tests ---
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
